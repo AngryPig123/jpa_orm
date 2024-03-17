@@ -1,0 +1,3 @@
+use jpa;
+
+ALTER TABLE card MODIFY COLUMN card_type ENUM('SAMSUNG', 'HYUNDAI', 'HANA', 'MASTERCARD');

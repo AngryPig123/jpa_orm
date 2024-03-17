@@ -38,6 +38,7 @@ public class User extends BaseEntity {
     @Embedded
     private UserLock userLock;
 
+
     public List<SimpleGrantedAuthority> authorities() {
         return role.authorities();
     }

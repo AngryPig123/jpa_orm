@@ -8,6 +8,13 @@ spring:
     password: root
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: validate
     show-sql: true
     open-in-view: false
+  flyway:
+    user: root
+    password: root
+    clean-disabled: true
+  sql:
+    init:
+      mode: always
