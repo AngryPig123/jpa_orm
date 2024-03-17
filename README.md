@@ -1,6 +1,7 @@
 - 브런치별로 비지니스 모델, 요구사항을 정하고 설계
 
 ### [user_role_authority_payment](https://github.com/AngryPig123/jpa_orm/tree/userdetail_example)
+## [flyway적용버전](https://github.com/AngryPig123/jpa_orm/tree/userdetail_flyway)
 
 1. **사용자 식별자 (Username 또는 Email)**
     - 사용자를 고유하게 식별하는 값입니다.
